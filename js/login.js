@@ -15,6 +15,7 @@ function validarForm(evento) {
     
     //vai salvar chave valor
     localStorage.setItem('player', input.value)
+    console.log(localStorage)
     window.location = 'pages/game.html'
     
     
